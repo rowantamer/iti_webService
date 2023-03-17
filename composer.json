@@ -1,0 +1,13 @@
+{   
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": " >=1.12.0",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "files": [
+            "config.php",
+            "MySqlHandler.php"
+        ]
+    }
+}
